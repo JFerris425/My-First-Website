@@ -17,44 +17,55 @@
             </ul>
         </nav>
         <header>
+            <div class="row">
             <div>
                 <h1>Best place to learn Frontend</h1>
-                <p>Go from absolute beginner to pro with a simplified process</p>
+                <p class="subheader">Go from absolute beginner to pro with a simplified process</p>
                 <button>Start now</button>
             </div>
             <figure>
                 <img src="assets/HTML Practise Assets/laptop.png" alt="Laptop">
             </figure>
+            </div>
+        </header>
     </section>
 
     <main>
         <section id="about">
             <h2>About</h2>
-            <div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti totam, cupiditate labore dolorem impedit quas tempore consequuntur reprehenderit tempora ut natus in laudantium adipisci autem eaque eos sed repellendus numquam!</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti totam, cupiditate labore dolorem impedit quas tempore consequuntur reprehenderit tempora ut natus in laudantium adipisci autem eaque eos sed repellendus numquam!</p>
+            <div class="row">
+                <div class="section__description">
+                    <div class="section__description--wrapper">
+                        <p class="section_description--paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit mollitia iste harum facere quaerat! Doloremque iusto ea culpa asperiores libero aliquam assumenda ullam, quis debitis, consectetur harum voluptates quia. Reiciendis?</p>
+                        <p class="section_description--paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit iusto consectetur autem saepe delectus veniam enim perferendis quis excepturi praesentium commodi, ipsum nihil labore quo. Quisquam recusandae omnis molestias consequuntur.</p>
+                    </div>
+                <figure class="about__img--wrapper">
+                    <img src="assets/HTML Practise Assets/about.jpg" alt="About">
+                </figure>
+                </div>
             </div>
-            <figure>
-                <img src="assets/HTML Practise Assets/about.jpg" alt="About">
-            </figure>
         </section>
 
         <section id="discord">
             <h2>Discord</h2>
-            <div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti totam, cupiditate labore dolorem impedit quas tempore consequuntur reprehenderit tempora ut natus in laudantium adipisci autem eaque eos sed repellendus numquam!</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti totam, cupiditate labore dolorem impedit quas tempore consequuntur reprehenderit tempora ut natus in laudantium adipisci autem eaque eos sed repellendus numquam!</p>
+            <div class="row">
+                <div class="section__description">
+                    <figure class="about__img--wrapper">
+                        <img src="assets/HTML Practise Assets/discord.png" alt="Discord">
+                    </figure>
+                    <div class="section__description--wrapper">
+                        <p class="section_description--paragraph"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque omnis dolorem harum, error reiciendis consequuntur ea labore iusto consectetur quo placeat. Est amet fugit odit laborum autem, eveniet distinctio officia?</p>
+                        <p class="section_description--paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit iusto consectetur autem saepe delectus veniam enim perferendis quis excepturi praesentium commodi, ipsum nihil labore quo. Quisquam recusandae omnis molestias consequuntur.</p>
+                    </div>
+                </div>
             </div>
-            <figure>
-                <img src="assets/HTML Practise Assets/discord.png" alt="Discord">
-            </figure>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
             <form action="">
                 <span>Email</span>
-                <input type="text" placeholder="jane@example.com" required>
+                <input type="email" placeholder="jane@example.com" required>
                 <span>Message</span>
                 <textarea placeholder="Nice Website!" required></textarea>
                 <button type="submit">Submit</button>
@@ -63,14 +74,15 @@
     </main>
 
     <footer>
-        <img src="assets/HTML Practise Assets/FES.svg" alt="FES LOGO">
-        <div>
-            <a href="#about">About</a>
-            <a href="#discord">Discord</a>
-            <a href="#contact">Contact</a>
-            <a href="#Courses">Courses</a>
+        <img class="footer__logo" src="assets/HTML Practise Assets/FES.svg" alt="FES LOGO">
+        <div class="footer__links">
+            <a class="footer__link" href="#about">About</a>
+            <a class="footer__link" href="#discord">Discord</a>
+            <a class="footer__link" href="#contact">Contact</a>
+            <a class="footer__link" href="#Courses">Courses</a>
         </div>
         <p>© 2025 Jacob Ferris</p>
     </footer>
 </body>
+
 </html>
